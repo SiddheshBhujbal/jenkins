@@ -1,5 +1,7 @@
 CC=gcc 
-TARGET=app
+OUTPUT=app
 
 all:
-        $(CC) main.c -o $(TARGET)
+	$(CC) main.c -o $(OUTPUT)
+clean:
+	rm $(OUTPUT)
